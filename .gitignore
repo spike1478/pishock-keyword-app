@@ -1,0 +1,35 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Installer/build artifacts
+*.spec
+build/
+dist/
+*.egg-info/
+
+# Logs and caches
+*.log
+*.cache
+*.pyo
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
