@@ -9,6 +9,7 @@ API_ENDPOINT = "https://do.pishock.com/api/apioperate/"
 
 class PiShockApp:
     def __init__(self, master):
+        self.master = master
         # Prompt for the API key before anything else
         self.api_key = simpledialog.askstring(
             "API Key Required",
