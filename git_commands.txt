@@ -1,0 +1,26 @@
+# Git Commands for GitHub Upload
+
+# 1. Initialize Git repository
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Create initial commit
+git commit -m "Initial commit: PiShock Universal App with emergency hotkey support
+
+- Universal support for PiShock and OpenShock platforms
+- Global emergency hotkey functionality (Ctrl+Shift+Esc)
+- Comprehensive safety features and validation
+- Cross-platform build scripts for Windows and Mac
+- Professional documentation and contribution guidelines
+- Enhanced UI with proper layout management"
+
+# 4. Set main branch
+git branch -M main
+
+# 5. Add remote origin (replace with your actual GitHub URL)
+git remote add origin https://github.com/spike1478/PiShock-Universal.git
+
+# 6. Push to GitHub
+git push -u origin main
